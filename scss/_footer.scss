@@ -1,0 +1,11 @@
+footer section {
+    @include suscripcion();
+}
+
+footer {
+    background-image: linear-gradient($fondoHeaderFooter, #bdbdbd);
+}
+
+#errorMailSuscripcion {
+    color: #ff0000;
+}

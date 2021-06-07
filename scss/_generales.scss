@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (max-width: 768px) {
+    header, main, footer {
+        font-size: small;
+    }
+}    
+
+body {
+    font-family: $tipoFuente;
+    margin: 5px;
+}

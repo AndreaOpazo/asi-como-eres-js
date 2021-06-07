@@ -1,0 +1,58 @@
+/* Main Index */
+article {
+    .animacion:hover {
+        transform: scale(1.01);
+    }
+}
+
+.fontDestacados {
+    @include fontsize(large);
+    font-weight: bold;
+}
+
+/* Main Login */
+.bgMain {
+    background-color: $fondoSuscripcionLogin;
+}
+
+#errorContrasenia {
+    color: $rojo;
+}
+
+.fontFormulario {
+    @include fontsize(x-large);
+}
+
+/* Main Secciones*/
+.padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.fontMenuLateral {
+    @include fontsize(medium);
+}
+
+/* Main carrito */
+#vaciarCarrito {
+    display: none;
+}
+
+#totalCarrito {
+    float: right;
+}
+
+#myProgress {
+    width: 25%;
+    background-color: #ddd;
+}
+
+#recargado, #titulo {
+    display: none;
+}
+
+#myBar {
+    width: 1%;
+    height: 20px;
+    background-color: #04AA6D;
+}

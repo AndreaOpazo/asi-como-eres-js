@@ -1,0 +1,16 @@
+//_footer
+@mixin suscripcion {
+    border-radius: 5px;
+    background-color: $fondoSuscripcionLogin;
+    border: 2px solid #cacaca;
+}
+
+//_header
+@mixin bgColor ($color) {
+    background-color: $color;
+}
+
+//_main
+@mixin fontsize ($tamaño) {
+    font-size: $tamaño;
+}

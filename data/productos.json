@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nombre": "Zapatillas Nike Air Jordan 1 Low",
+    "precio": 15999,
+    "stock": 10,
+    "img": [
+      {
+        "url": "imagenes/NI_553558-604-1.jpg",
+        "alt": "imagenPrincipal1"
+      },
+      {
+        "url": "imagenes/NI_553558-604-3.jpg",
+        "alt": "primerImagenCarousel1"
+      },
+      {
+        "url": "imagenes/NI_553558-604-4.jpg",
+        "alt": "segundaImagenCarousel1"
+      },
+      {
+        "url": "imagenes/NI_553558-604-6.jpg",
+        "alt": "tercerImagenCarousel1"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Zapatillas Nike Air Force 1 07",
+    "precio": 15499,
+    "stock": 2,
+    "img": [
+      {
+        "url": "imagenes/NI_CD0886-001-1.jpg",
+        "alt": "imagenPrincipal2"
+      },
+      {
+        "url": "imagenes/NI_CD0886-001-3.jpg",
+        "alt": "primerImagenCarousel2"
+      },
+      {
+        "url": "imagenes/NI_CD0886-001-4.jpg",
+        "alt": "segundaImagenCarousel2"
+      },
+      {
+        "url": "imagenes/NI_CD0886-001-6.jpg",
+        "alt": "tercerImagenCarousel2"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Zapatillas Nike Air Force 1 07 Lv8",
+    "precio": 13999,
+    "stock": 0,
+    "img": [
+      {
+        "url": "imagenes/NI_CJ1379-001-1.jpg",
+        "alt": "imagenPrincipal3"
+      },
+      {
+        "url": "imagenes/NI_CJ1379-001-3.jpg",
+        "alt": "primerImagenCarrousel3"
+      },
+      {
+        "url": "imagenes/NI_CJ1379-001-4.jpg",
+        "alt": "segundaImagenCarrousel3"
+      },
+      {
+        "url": "imagenes/NI_CJ1379-001-1.jpg",
+        "alt": "tercerImagenCarrousel3"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Zapatillas Nike Air Force 1 Shadow",
+    "precio": 16999,
+    "stock": 30,
+    "img": [
+      {
+        "url": "imagenes/NI_CJ1641-100-1.jpg",
+        "alt": "imagenPrincipal4"
+      },
+      {
+        "url": "imagenes/NI_CJ1641-100-3.jpg",
+        "alt": "primerImagenCarrousel4"
+      },
+      {
+        "url": "imagenes/NI_CJ1641-100-4.jpg",
+        "alt": "segundaImagenCarrousel4"
+      },
+      {
+        "url": "imagenes/NI_CJ1641-100-5.jpg",
+        "alt": "tercerImagenCarrousel4"
+      }
+    ]
+  }
+]

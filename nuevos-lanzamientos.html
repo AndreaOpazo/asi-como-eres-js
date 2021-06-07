@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este es el sitio web en el que encontrarás zapatillas y sandalias para las mujeres más bellas."/>
+    <meta name="keywords"  content="ZAPATILLAS, SANDALIAS, ADIDAS, NIKE, PUMA"/>
+    <meta name="author" content="Andrea Opazo"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Así Como Eres"/>
+    <meta property="og:description" content="Sitio web de zapatillas femeninas."/>
+    <meta property="og:url" content="https://asicomoeres.000webhostapp.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" 
+        rel="stylesheet"
+    />
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <title>Nuevos Lanzamientos | Así Como Eres</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-4 text-center text-md-start mb-2">
+                <a title="Asi Como Eres: Tienda online" href="index.html">
+                    <img src="imagenes/logo.png" alt="Logo"/>
+                </a>
+            </div>
+            <div class="col-12 col-md-4 text-center my-md-4 mb-2">
+                <div class="container">
+                    <div class="row">
+                        <form class="col-12 d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscá por producto, marca, etc..."/>
+                            <button class="btn btn-sm btn-outline-info" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 text-center my-md-4 mb-2">
+                <a href="login.html">Registrate | Ingresá</a>
+                <br/>
+                <img src="imagenes/corazon.png" alt="Favoritos"/>
+                <img src="imagenes/carrito-de-compras.png" alt="Mi Carrito"/>
+            </div>
+        </div>
+        <div class="row fondo">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-sm navbar-light">
+                    <div class="container-fluid">
+                        <button 
+                            class="navbar-toggler" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#navbarMenu" 
+                            aria-controls="navbarMenu" 
+                            aria-expanded="false" 
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="mujer.html">Mujer</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="ninia.html">Niña</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="nuevos-lanzamientos.html">Nuevos Lanzamietos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="rebajas.html">Rebajas</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <div class="row mx-auto mt-2">
+            <div class="col-12">
+                <nav class="bg-transparent" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                        <li class="breadcrumb-item"><a href="nuevos-lanzamientos.html">Nuevos Lanzamientos</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Resultados (10)</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-3 my-2">
+                <nav class="navbar navbar-expand-lg navbar-light bg-md-light">
+                    <div class="container bg-light">
+                        <img 
+                            src="imagenes/filter.png" 
+                            class="navbar-toggler position-absolute bottom-100 end-0 bg-light"
+                            alt="filtro" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#navbarToggler" 
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        />
+                        <div class="collapse navbar-collapse bg-light my-2" id="navbarToggler">
+                            <div class="container flex-column">
+                                <div class="row mx-auto">
+                                    <div class="col-12 mb-3">
+                                        <label for="list_order" class="fontMenuLateral">Ordenar por:</label>
+                                        <select name="list_order">
+                                            <option value="V">Más Vendidos</option>
+                                            <option value="MN">Más Nuevo</option>
+                                            <option value="MV">Más Viejo</option>
+                                            <option value="PMA">Mayor Precio</option>
+                                            <option value="PME">Menor Precio</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="col-12 mb-2">
+                                        <h1 class="fontMenuLateral">Calzado</h1>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <input class="form-check-input me-1" type="checkbox" name="zapatillas" value="1"/> 
+                                                Zapatillas
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input class="form-check-input me-1" type="checkbox" name="Ojotas" value="2"/> 
+                                                Ojotas
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="row mx-auto">
+                                    <div class="col-12 mb-2">
+                                        <h1 class="fontMenuLateral">Género</h1>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <input type="checkbox" name="mujer" value="1"/> 
+                                                Mujer
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input type="checkbox" name="ninia" value="2"/> 
+                                                Niña
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-12 mb-2">
+                                        <h1 class="fontMenuLateral">Marca</h1>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <input type="checkbox" name="adidas" value="1"/> 
+                                                Adidas
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input type="checkbox" name="nike" value="2"/> 
+                                                Nike
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input type="checkbox" name="puma" value="3"/> 
+                                                Puma
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-12 mb-2">
+                                        <h1 class="fontMenuLateral">Talle</h1>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                <input type="checkbox" name="tres_seis" value="1"/> 
+                                                36
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input type="checkbox" name="tres_siete" value="2"/> 
+                                                37
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input type="checkbox" name="tres_ocho" value="3"/> 
+                                                38
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input type="checkbox" name="tres_nueve" value="4"/> 
+                                                39
+                                            </li>
+                                            <li class="list-group-item">
+                                                <input type="checkbox" name="cuatro" value="5"/> 
+                                                40
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <ul class="list-group list-group-flush">
+                                            <label for="price" class="form-label fontMenuLateral">Precio</label>
+                                            <li class="list-group-item">
+                                                <input type="range" class="form-range" name="price" id="price" min="300" max="5000">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-12 col-lg-9">
+                <div class="container">
+                    <div class="row g-3 mb-3">
+                        <div class="col-12 col-sm-6 col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop11">
+                            <div class="card">
+                                <img src="imagenes/AD_EG8141-1.jpg" class="card-img-top" alt="product11">
+                                <div class="card-body">
+                                    <h6 class="card-title">Zapatillas Adidas Falcon</h6>
+                                    <p class="card-text text-muted">$7.119</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop12">
+                            <div class="card">
+                                <img src="imagenes/AD_EG6697-1.jpg" class="card-img-top" alt="product12">
+                                <div class="card-body">
+                                    <h6 class="card-title">Zapatillas Adidas Ozweego</h6>
+                                    <p class="card-text text-muted">$8.399</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop13">
+                            <div class="card">
+                                <img src="imagenes/AD_FY0605-1.jpg" class="card-img-top" alt="product13">
+                                <div class="card-body">
+                                    <h6 class="card-title">Zapatillas Adidas Zx 2K Boost</h6>
+                                    <p class="card-text text-muted">$14.999</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop14">
+                            <div class="card">
+                                <img src="imagenes/AD_FV3336-1.jpg" class="card-img-top" alt="product14">
+                                <div class="card-body">
+                                    <h6 class="card-title">Zapatillas Adidas Superstar Bold</h6>
+                                    <p class="card-text text-muted">$11.999</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="modal fade" id="staticBackdrop11" data-bs-backdrop="static">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Zapatillas Adidas Falcon</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="carousel11" class="carousel carousel-dark slide col-12" data-bs-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                    <li data-bs-target="#carousel11" data-bs-slide-to="0" class="active"></li>
+                                                    <li data-bs-target="#carousel11" data-bs-slide-to="1"></li>
+                                                    <li data-bs-target="#carousel11" data-bs-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="imagenes/AD_EG8141-1.jpg" alt="First slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/AD_EG8141-2.jpg" alt="Second slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/AD_EG8141-3.jpg" alt="Third slide">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel11" role="button" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel11" role="button" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="modal fade" id="staticBackdrop12" data-bs-backdrop="static">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Zapatillas Adidas Ozweego</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="carousel12" class="carousel carousel-dark slide col-12" data-bs-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                    <li data-bs-target="#carousel12" data-bs-slide-to="0" class="active"></li>
+                                                    <li data-bs-target="#carousel12" data-bs-slide-to="1"></li>
+                                                    <li data-bs-target="#carousel12" data-bs-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="imagenes/AD_EG6697-3.jpg" alt="First slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/AD_EG6697-4.jpg" alt="Second slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/AD_EG6697-6.jpg" alt="Third slide">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel12" role="button" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel12" role="button" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="modal fade" id="staticBackdrop13" data-bs-backdrop="static">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Zapatillas Adidas Zx 2K Boost</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="carousel13" class="carousel carousel-dark slide col-12" data-bs-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                    <li data-bs-target="#carousel13" data-bs-slide-to="0" class="active"></li>
+                                                    <li data-bs-target="#carousel13" data-bs-slide-to="1"></li>
+                                                    <li data-bs-target="#carousel13" data-bs-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="imagenes/AD_FY0605-3.jpg" alt="First slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/AD_FY0605-4.jpg" alt="Second slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/AD_FY0605-6.jpg" alt="Third slide">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel13" role="button" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel13" role="button" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="modal fade" id="staticBackdrop14" data-bs-backdrop="static">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Zapatillas Adidas Superstar Bold</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="carousel14" class="carousel carousel-dark slide col-12" data-bs-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                    <li data-bs-target="#carousel14" data-bs-slide-to="0" class="active"></li>
+                                                    <li data-bs-target="#carousel14" data-bs-slide-to="1"></li>
+                                                    <li data-bs-target="#carousel14" data-bs-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="imagenes/AD_FV3336-3.jpg" alt="First slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/AD_FV3336-4.jpg" alt="Second slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/AD_FV3336-6.jpg" alt="Third slide">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel14" role="button" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel14" role="button" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row g-3 mb-3">
+                        <div class="col-12 col-sm-6 col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop21">
+                            <div class="card">
+                                <img src="imagenes/NI_870024-605-1.jpg" class="card-img-top" alt="product21">
+                                <div class="card-body">
+                                    <h6 class="card-title">Zapatillas Nike Presto</h6>
+                                    <p class="card-text text-muted">$4.059</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop22">
+                            <div class="card">
+                                <img src="imagenes/NI_553558-604-1.jpg" class="card-img-top" alt="product22">
+                                <div class="card-body">
+                                    <h6 class="card-title">Zapatillas Nike Air Jordan 1 Low</h6>
+                                    <p class="card-text text-muted">$15.999</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop23">
+                            <div class="card">
+                                <img src="imagenes/NI_BQ7197-101-1.jpg" class="card-img-top" alt="product23">
+                                <div class="card-body">
+                                    <h6 class="card-title">Zapatillas Nike Sky Jordan 1</h6>
+                                    <p class="card-text text-muted">$8.999</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop24">
+                            <div class="card">
+                                <img src="imagenes/NI_CJ1641-100-1.jpg" class="card-img-top" alt="product24">
+                                <div class="card-body">
+                                    <h6 class="card-title">Zapatillas Nike Air Force 1 Shadow</h6>
+                                    <p class="card-text text-muted">$16.999</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="modal fade" id="staticBackdrop21" data-bs-backdrop="static">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Zapatillas Nike Presto</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="carousel21" class="carousel carousel-dark slide col-12" data-bs-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                    <li data-bs-target="#carousel21" data-bs-slide-to="0" class="active"></li>
+                                                    <li data-bs-target="#carousel21" data-bs-slide-to="1"></li>
+                                                    <li data-bs-target="#carousel21" data-bs-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="imagenes/NI_870024-605-3.jpg" alt="First slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/NI_870024-605-4.jpg" alt="Second slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/NI_870024-605-6.jpg" alt="Third slide">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel21" role="button" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel21" role="button" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="modal fade" id="staticBackdrop22" data-bs-backdrop="static">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Zapatillas Nike Air Jordan 1 Low</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="carousel22" class="carousel carousel-dark slide col-12" data-bs-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                    <li data-bs-target="#carousel22" data-bs-slide-to="0" class="active"></li>
+                                                    <li data-bs-target="#carousel22" data-bs-slide-to="1"></li>
+                                                    <li data-bs-target="#carousel22" data-bs-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="imagenes/NI_553558-604-3.jpg" alt="First slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/NI_553558-604-4.jpg" alt="Second slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/NI_553558-604-6.jpg" alt="Third slide">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel22" role="button" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel22" role="button" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>            
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="modal fade" id="staticBackdrop23" data-bs-backdrop="static">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Zapatillas Nike Sky Jordan 1</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="carousel23" class="carousel carousel-dark slide col-12" data-bs-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                    <li data-bs-target="#carousel23" data-bs-slide-to="0" class="active"></li>
+                                                    <li data-bs-target="#carousel23" data-bs-slide-to="1"></li>
+                                                    <li data-bs-target="#carousel23" data-bs-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="imagenes/NI_BQ7197-101-2.jpg" alt="First slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/NI_BQ7197-101-3.jpg" alt="Second slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/NI_BQ7197-101-1.jpg" alt="Third slide">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel23" role="button" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel23" role="button" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="modal fade" id="staticBackdrop24" data-bs-backdrop="static">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Zapatillas Nike Air Force 1 Shadow</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="carousel24" class="carousel carousel-dark slide col-12" data-bs-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                    <li data-bs-target="#carousel24" data-bs-slide-to="0" class="active"></li>
+                                                    <li data-bs-target="#carousel24" data-bs-slide-to="1"></li>
+                                                    <li data-bs-target="#carousel24" data-bs-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="imagenes/NI_CJ1641-100-3.jpg" alt="First slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/NI_CJ1641-100-4.jpg" alt="Second slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/NI_CJ1641-100-5.jpg" alt="Third slide">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel24" role="button" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel24" role="button" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row g-3 mb-3">
+                        <div class="col-12 col-sm-6 col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop31">
+                            <div class="card">
+                                <img src="imagenes/AD_AH2229-1.jpg" class="card-img-top" alt="product31">
+                                <div class="card-body">
+                                    <h6 class="card-title">Zapatillas Adidas Gazelle</h6>
+                                    <p class="card-text text-muted">$4.619</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop32">
+                            <div class="card">
+                                <img src="imagenes/NI_AQ2442-601-1.jpg" class="card-img-top" alt="product32">
+                                <div class="card-body">
+                                    <h6 class="card-title">Zapatillas Nike Foam Force 1</h6>
+                                    <p class="card-text text-muted">$4.339</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="modal fade" id="staticBackdrop31" data-bs-backdrop="static">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Zapatillas Adidas Gazelle</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="carousel31" class="carousel carousel-dark slide col-12" data-bs-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                    <li data-bs-target="#carousel31" data-bs-slide-to="0" class="active"></li>
+                                                    <li data-bs-target="#carousel31" data-bs-slide-to="1"></li>
+                                                    <li data-bs-target="#carousel31" data-bs-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="imagenes/AD_AH2229-3.jpg" alt="First slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/AD_AH2229-4.jpg" alt="Second slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/AD_AH2229-6.jpg" alt="Third slide">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel31" role="button" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel31" role="button" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="modal fade" id="staticBackdrop32" data-bs-backdrop="static">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Zapatillas Nike Foam Force 1</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="carousel32" class="carousel carousel-dark slide col-12" data-bs-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                    <li data-bs-target="#carousel32" data-bs-slide-to="0" class="active"></li>
+                                                    <li data-bs-target="#carousel32" data-bs-slide-to="1"></li>
+                                                    <li data-bs-target="#carousel32" data-bs-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="imagenes/NI_AQ2442-601-3.jpg" alt="First slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/NI_AQ2442-601-4.jpg" alt="Second slide">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img class="d-block w-100" src="imagenes/NI_AQ2442-601-6.jpg" alt="Third slide">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carousel32" role="button" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carousel32" role="button" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        <div class="row justify-content-center text-center mx-auto pt-3">
+            <section class="col-6 mt-2 mb-2 suscripcion">
+                <p class="text-uppercase fw-bold mt-2">
+                    <i>recibí las últimas novedades en tu mail</i>
+                </p>
+                <p>
+                    <i>Enterate antes que nadie de las ultimas novedades y promociones a traves de nuestro newsletter.</i>
+                </p>
+                <p>
+                    <input type="email" placeholder="Ingresa tu email" class="text-center mb-2"/>
+                    <button type="submit" class="btn btn-primary mb-2">Suscribirme</button>
+                </p>
+            </section>
+        </div>
+        <div class="row">
+            <hr/>
+            <div class="col-6 text-center">
+                <div class="text-uppercase fw-bold">contactanos</div>
+                <div>011-34876985</div>
+                <div>asicomoeres@gmail.com</div>
+                <div>Estrada 742 - Zarate</div>
+                <div>Lun. a Vie. de 10 a 18hs Sab de 9 a 14hs</div>
+            </div>
+            <div class="col-6 text-center">
+                <div class="text-uppercase fw-bold">institucional</div>
+                <div>Quienes Somos</div>
+                <div>Politicas de Privacidad</div>
+                <div>Terminos y Condiciones</div>
+                <div>Preguntas Frecuentes</div>
+            </div>
+        </div>
+        <div class="row bg-secondary mt-2">
+            <span class="col-12 text-white text-center">Copyright Asi Como Eres - 2020. Todos los derechos reservados.</span>
+        </div>
+    </footer>
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"
+    ></script>   
+</body>
+</html>

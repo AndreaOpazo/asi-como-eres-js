@@ -1,0 +1,30 @@
+.background {
+    @include bgColor($fondoHeaderFooter);
+}
+
+nav {
+    ul {
+        li {
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                background-color: #e6e6fa;
+            }
+        }
+    }
+}
+
+div {
+    a {
+        text-decoration: none;
+        color: $negro;
+    }
+    a:hover {
+        color: $negro;
+    }
+}
+
+.fondo {
+    background-color: #d8bfd8;
+}

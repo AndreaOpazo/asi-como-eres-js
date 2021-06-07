@@ -1,5 +1,5 @@
 {
-  "name": "asi-como-eres-javascript",
+  "name": "asi-como-eres-js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndreaOpazo/asi-como-eres-javascript.git"
+    "url": "git+https://github.com/AndreaOpazo/asi-como-eres-js.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndreaOpazo/asi-como-eres-javascript/issues"
+    "url": "https://github.com/AndreaOpazo/asi-como-eres-js/issues"
   },
-  "homepage": "https://github.com/AndreaOpazo/asi-como-eres-javascript#readme",
+  "homepage": "https://github.com/AndreaOpazo/asi-como-eres-js#readme",
   "devDependencies": {
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.7"

@@ -27,16 +27,11 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <script src="jQuery/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <script src="js/carrito.js" defer></script>
-    <title>Carrito | Así Como Eres</title>
+    <script src="jQuery/jquery-3.6.0.min.js"></script>
+    <script src="js/classes/formulario.js"></script>
+    <script src="js/checkout.js" defer></script>
+    <title>Checkout | Así Como Eres</title>
   </head>
   <body>
     <header class="container-fluid">
@@ -69,14 +64,13 @@
                 <img src="imagenes/corazon.png" alt="Favoritos" />
               </div>
               <div
-                id="popoverProductos"
+                id="irACarrito"
                 class="badge rounded-pill bg-light text-danger"
-                data-bs-toggle="popover"
-                data-bs-placement="bottom"
                 title="Ver carrito"
-                data-bs-content=""
               >
-                <img src="imagenes/carrito-de-compras.png" alt="Mi Carrito" />
+                <a href="carrito.html">
+                  <img src="imagenes/carrito-de-compras.png" alt="Mi Carrito" />
+                </a>
                 <span id="notificacionCarrito"></span>
               </div>
             </div>
@@ -109,10 +103,10 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="mujer.html">Mujer</a>
+                    <a class="nav-link" href="#">Mujer</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="ninia.html">Niña</a>
+                    <a class="nav-link" href="#">Niña</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Nuevos Lanzamietos</a>
@@ -127,41 +121,27 @@
         </div>
       </div>
     </header>
-    <main class="container">
-      <div class="row my-2">
+    <main class="container-fluid">
+      <div class="row bg-light">
         <div class="col">
-          <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-              <li class="breadcrumb-item active" aria-current="page">
-                Carrito
-              </li>
-            </ol>
-          </nav>
+          <img src="imagenes/checkout.png" alt="Completa la compra" />
         </div>
       </div>
-      <div class="row">
-        <div class="col my-2">
-          <img
-            src="imagenes/queEmocion.png"
-            class="tamanio"
-            alt="Que Emocion!"
-          />
-          <hr />
+      <div class="row my-2">
+        <div class="col-xs-12 col-md-6 my-2">
+          <div class="container">
+            <h4>Datos de contacto</h4>
+            <div id="formularioContacto" class="col-12 pt-2"></div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div id="listaProductos" class="col"></div>
-      </div>
-      <br />
-      <div class="row">
-        <div id="totalCarrito" class="col"></div>
-      </div>
-      <div class="row">
-        <div class="col my-2">
-          <button class="btn btn-sm btn-dark float-end">
-            <a href="index.html" class="text-white">Volver a la tienda</a>
-          </button>
+        <div class="col-xs-12 col-md-6 my-2">
+          <div class="container">
+            <h4>Tu pedido</h4>
+            <div class="row g-3">
+              <div id="tuPedido" class="col-12 pt-2"></div>
+              <div id="datosEnvio" class="col-12"></div>
+            </div>
+          </div>
         </div>
       </div>
     </main>

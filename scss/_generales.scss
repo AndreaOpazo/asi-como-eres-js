@@ -1,15 +1,22 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 @media (max-width: 768px) {
-    header, main, footer {
-        font-size: small;
-    }
-}    
+  header,
+  main,
+  footer {
+    font-size: small;
+  }
+}
 
 body {
-    font-family: $tipoFuente;
-    margin: 5px;
+  font-family: $tipoFuente;
+  margin: 5px;
+}
+
+.size {
+  height: auto;
+  width: 80px;
 }

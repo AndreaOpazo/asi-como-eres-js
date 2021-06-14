@@ -1,58 +1,44 @@
 /* Main Index */
 article {
-    .animacion:hover {
-        transform: scale(1.01);
-    }
+  .animacion:hover {
+    transform: scale(1.01);
+  }
 }
 
 .fontDestacados {
-    @include fontsize(large);
-    font-weight: bold;
-}
-
-/* Main Login */
-.bgMain {
-    background-color: $fondoSuscripcionLogin;
-}
-
-#errorContrasenia {
-    color: $rojo;
-}
-
-.fontFormulario {
-    @include fontsize(x-large);
+  @include fontsize(large);
+  font-weight: bold;
 }
 
 /* Main Secciones*/
-.padding {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
 .fontMenuLateral {
-    @include fontsize(medium);
+  @include fontsize(medium);
 }
 
-/* Main carrito */
-#vaciarCarrito {
-    display: none;
-}
-
-#totalCarrito {
-    float: right;
-}
-
+/* cartel hotsale */
 #myProgress {
-    width: 25%;
-    background-color: #ddd;
+  width: 25%;
+  background-color: #ddd;
 }
 
-#recargado, #titulo {
-    display: none;
+#recargado,
+#titulo {
+  display: none;
 }
 
 #myBar {
-    width: 1%;
-    height: 20px;
-    background-color: #04AA6D;
+  width: 1%;
+  height: 20px;
+  background-color: #04aa6d;
+}
+
+/* productos carrito */
+.tamanio {
+  height: auto;
+  width: 50rem;
+}
+
+.sizeProducto {
+  height: auto;
+  width: 8rem;
 }

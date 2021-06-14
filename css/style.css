@@ -1,89 +1,111 @@
 * {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+}
 
 @media (max-width: 768px) {
-  header, main, footer {
-    font-size: small; } }
+  header,
+  main,
+  footer {
+    font-size: small;
+  }
+}
 
 body {
-  font-family: "Merriweather", serif;
-  margin: 5px; }
+  font-family: 'Merriweather', serif;
+  margin: 5px;
+}
+
+.size {
+  height: auto;
+  width: 80px;
+}
 
 .background {
-  background-color: #e6e6fa; }
+  background-color: #e6e6fa;
+}
 
 nav ul li a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 nav ul li a:hover {
-  background-color: #e6e6fa; }
+  background-color: #e6e6fa;
+}
 
 div a {
   text-decoration: none;
-  color: #000000; }
+  color: #000000;
+}
 
 div a:hover {
-  color: #000000; }
+  color: #000000;
+}
 
 .fondo {
-  background-color: #d8bfd8; }
+  background-color: #d8bfd8;
+}
+
+#cart:hover {
+  text-decoration: underline;
+}
 
 /* Main Index */
-article .animacion:hover {
-  transform: scale(1.01); }
+article.animacion:hover {
+  transform: scale(1.01);
+}
 
 .fontDestacados {
   font-size: large;
-  font-weight: bold; }
-
-/* Main Login */
-.bgMain {
-  background-color: #FFCCBC; }
-
-#errorContrasenia {
-  color: #ff0000; }
-
-.fontFormulario {
-  font-size: x-large; }
+  font-weight: bold;
+}
 
 /* Main Secciones*/
-.padding {
-  padding-left: 0px;
-  padding-right: 0px; }
-
 .fontMenuLateral {
-  font-size: medium; }
+  font-size: medium;
+}
 
-/* Main carrito */
-#vaciarCarrito {
-  display: none; }
-
-#totalCarrito {
-  float: right; }
-
+/* cartel hotsale */
 #myProgress {
   width: 25%;
-  background-color: #ddd; }
+  background-color: #ddd;
+}
 
-#recargado, #titulo {
-  display: none; }
+#recargado,
+#titulo {
+  display: none;
+}
 
 #myBar {
   width: 1%;
   height: 20px;
-  background-color: #04AA6D; }
+  background-color: #04aa6d;
+}
+
+/* productos carrito */
+.tamanio {
+  height: auto;
+  width: 50rem;
+}
+
+.sizeProducto {
+  height: auto;
+  width: 8rem;
+}
 
 footer section {
   border-radius: 5px;
-  background-color: #FFCCBC;
-  border: 2px solid #cacaca; }
+  background-color: #ffccbc;
+  border: 2px solid #cacaca;
+}
 
 footer {
-  background-image: linear-gradient(#e6e6fa, #bdbdbd); }
+  background-image: linear-gradient(#e6e6fa, #bdbdbd);
+}
 
 #errorMailSuscripcion {
-  color: #ff0000; }
+  color: #ff0000;
+}
 
 #snackbar {
   visibility: hidden;
@@ -98,41 +120,55 @@ footer {
   z-index: 9999;
   left: 50%;
   bottom: 30px;
-  font-size: 17px; }
+  font-size: 17px;
+}
 
 #snackbar.show {
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  animation: fadein 0.5s, fadeout 0.5s 2.5s; }
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
 
 @-webkit-keyframes fadein {
   from {
     bottom: 0;
-    opacity: 0; }
+    opacity: 0;
+  }
   to {
     bottom: 30px;
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 @keyframes fadein {
   from {
     bottom: 0;
-    opacity: 0; }
+    opacity: 0;
+  }
   to {
     bottom: 30px;
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 @-webkit-keyframes fadeout {
   from {
     bottom: 30px;
-    opacity: 1; }
+    opacity: 1;
+  }
   to {
     bottom: 0;
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
 
 @keyframes fadeout {
   from {
     bottom: 30px;
-    opacity: 1; }
+    opacity: 1;
+  }
   to {
     bottom: 0;
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
